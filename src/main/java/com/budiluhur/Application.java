@@ -12,15 +12,12 @@ public class Application {
 
         System.out.println("======");
 
-        // Deklarasi variabel produk
         String productName = "Mouse Wireless Silent";
         double unitPrice = 175000.0;
         int stockQuantity = 12;
 
-        // Memanggil method untuk menampilkan informasi
         printProductDetails(productName, unitPrice, stockQuantity);
-        
-        // Memeriksa status ketersediaan
+
         boolean isAvailable = checkStockStatus(stockQuantity);
         System.out.println("Status Ketersediaan: " + (isAvailable ? "Tersedia" : "Stok Habis"));
     }

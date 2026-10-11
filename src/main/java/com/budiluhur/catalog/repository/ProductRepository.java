@@ -21,6 +21,6 @@ public class ProductRepository {
  return p;
  }
  }
- throw new ProductNotFoundException("Produk dengan ID '" + id + " 'tidak ditemukan!");
+ throw new ProductNotFoundException("Produk dengan ID '" + id + "' tidak ditemukan!");
  }
 }
