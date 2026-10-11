@@ -33,7 +33,7 @@
       <version>10.1.18</version>
     </dependency>
 
-    <!-- AppTest.java bawaan archetype memakai JUnit 4, jadi tetap dipertahankan -->
+    <!-- AppTest.java bawaan archetype memakai JUnit 4 -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
